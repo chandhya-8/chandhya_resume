@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandhya S | Full Stack Developer &amp; AI Enthusiast</title>
+<meta name="description" content="Portfolio of Chandhya S — BCA student, aspiring Full Stack Developer and AI Engineer. Explore projects, skills, certifications and experience.">
+<meta name="theme-color" content="#6C3BFF">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Chandhya S | Full Stack Developer & AI Enthusiast">
+<meta property="og:description" content="Portfolio of Chandhya S — BCA student, aspiring Full Stack Developer and AI Engineer.">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chandhya S | Full Stack Developer & AI Enthusiast">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+  <div class="loader-logo">CS<span>.</span></div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<!-- Cursor Glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Floating blurred gradient circles (background) -->
+<div class="bg-blobs" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- NAVIGATION -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">CHANDHYA<span>S</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <!--<a href="#projects" class="nav-link">Projects</a>-->
+      <a href="#certificates" class="nav-link">Certificates</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <a href="chandhya resume.pdf" class="btn btn-small nav-resume">Resume</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner container">
+      <div class="hero-text reveal">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1 class="hero-name gradient-text">CHANDHYA S</h1>
+        <h2 class="hero-typed">
+          <span id="typedText"></span><span class="cursor-blink">|</span>
+        </h2>
+        <p class="hero-desc">
+          Motivated and organized Bachelor of Computer Applications (BCA) student with a strong interest
+          in software development, AI, web technologies, and modern application development. Passionate
+          about creating impactful digital experiences through innovative technologies while continuously
+          learning and solving real-world problems.
+        </p>
+        <div class="hero-buttons">
+          <a href="chandhya resume.pdf" class="btn btn-primary">Download Resume</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/chandhya-8" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/chandhya-s-9a9635386" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:hichandhya@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="tel:+919025934085" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          <span class="hero-location"><i class="fa-solid fa-location-dot"></i> Tamil Nadu, India</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-orb">
+          <div class="glass-avatar">
+            <span>CS</span>
+          </div>
+          <i class="fa-brands fa-react floating-icon icon-1"></i>
+          <i class="fa-brands fa-python floating-icon icon-2"></i>
+          <i class="fa-brands fa-js floating-icon icon-3"></i>
+          <i class="fa-brands fa-html5 floating-icon icon-4"></i>
+          <i class="fa-solid fa-database floating-icon icon-5"></i>
+          <i class="fa-brands fa-git-alt floating-icon icon-6"></i>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">About Me</p>
+      <h2 class="section-title reveal">A little more about who I am</h2>
+
+      <div class="about-grid">
+        <div class="glass-card about-card reveal">
+          <div class="about-row"><span>Name</span><strong>CHANDHYA S</strong></div>
+          <div class="about-row"><span>Role</span><strong>BCA Student</strong></div>
+          <div class="about-row"><span>College</span><strong>Madras Christian College</strong></div>
+          <div class="about-row"><span>Expected Graduation</span><strong>2027</strong></div>
+          <div class="about-row"><span>Location</span><strong>Tamil Nadu, India</strong></div>
+          <div class="about-row"><span>Languages</span><strong>English, Tamil</strong></div>
+        </div>
+
+        <div class="about-interests reveal">
+          <h3>Interests</h3>
+          <div class="chip-group">
+            <span class="chip">Full Stack Development</span>
+            <span class="chip">Artificial Intelligence</span>
+            <span class="chip">Software Development</span>
+            <span class="chip">Data Science</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Responsive Web Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <p class="section-eyebrow reveal">Education</p>
+      <h2 class="section-title reveal">Academic Journey</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Bachelor of Computer Applications</h3>
+            <p class="timeline-sub">Madras Christian College</p>
+            <span class="timeline-tag">Expected Graduation: 2027</span>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Higher Secondary</h3>
+            <div class="timeline-score"><div class="score-bar"><div class="score-fill" data-score="93.5"></div></div><span>93.5%</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Core Subjects</h3>
+            <div class="timeline-score"><div class="score-bar"><div class="score-fill" data-score="97"></div></div><span>97%</span></div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <h3>Secondary School</h3>
+            <div class="timeline-score"><div class="score-bar"><div class="score-fill" data-score="82"></div></div><span>82%</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">Professional Experience</p>
+      <h2 class="section-title reveal">Where I've worked</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="exp-head">
+              <h3>Full Stack Development Intern</h3>
+              <span class="timeline-tag">6 Months</span>
+            </div>
+            <p class="timeline-sub">Pentagon Innovations</p>
+            <ul class="exp-list">
+              <li>Developed responsive websites using HTML, CSS, JavaScript, Python, PHP and MySQL</li>
+              <li>Performed testing and debugging across the stack</li>
+              <li>Used AI development tools to speed up delivery</li>
+              <li>Focused on performance optimization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="exp-head">
+              <h3>Web Development Intern</h3>
+              <span class="timeline-tag">15 Days</span>
+            </div>
+            <p class="timeline-sub">InAmigos Foundation</p>
+            <ul class="exp-list">
+              <li>Developed business websites with responsive UI</li>
+              <li>Built with PHP and MySQL</li>
+              <li>Used AI-assisted development workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <p class="section-eyebrow reveal">Technical Skills</p>
+      <h2 class="section-title reveal">What I work with</h2>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-code"></i> Programming</h3>
+          <div class="chip-group"><span class="chip">C</span><span class="chip">C++</span><span class="chip">Python</span></div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-globe"></i> Web</h3>
+          <div class="chip-group"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">PHP</span></div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-database"></i> Database</h3>
+          <div class="chip-group"><span class="chip">MySQL</span></div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-brands fa-git-alt"></i> Version Control</h3>
+          <div class="chip-group"><span class="chip">Git</span><span class="chip">GitHub</span></div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-robot"></i> AI Tools</h3>
+          <div class="chip-group">
+            <span class="chip">ChatGPT</span><span class="chip">Claude</span><span class="chip">Gemini</span>
+            <span class="chip">Perplexity AI</span><span class="chip">GitHub Copilot</span><span class="chip">Cursor</span>
+            <span class="chip">Windsurf</span><span class="chip">Bolt.new</span><span class="chip">v0</span><span class="chip">Codeium</span>
+          </div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-palette"></i> Design</h3>
+          <div class="chip-group"><span class="chip">Canva</span><span class="chip">Image Editing</span><span class="chip">MS Office</span><span class="chip">Google Workspace</span></div>
+        </div>
+        <div class="glass-card skill-card reveal">
+          <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+          <div class="chip-group">
+            <span class="chip">Problem Solving</span><span class="chip">Critical Thinking</span><span class="chip">Leadership</span>
+            <span class="chip">Communication</span><span class="chip">Teamwork</span><span class="chip">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <!--<section id="projects" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">Projects</p>
+      <h2 class="section-title reveal">Things I've built</h2>
+
+      <div class="projects-grid">
+        <div class="glass-card project-card reveal">
+          <div class="project-thumb"><i class="fa-solid fa-leaf"></i></div>
+          <span class="project-category">Web App</span>
+          <h3>Environmental Health Information System</h3>
+          <p>A web platform for tracking and presenting environmental health information for informed decision-making.</p>
+          <div class="chip-group small"><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">HTML/CSS</span></div>
+          <div class="project-links"><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div>
+        </div>
+        <div class="glass-card project-card reveal">
+          <div class="project-thumb"><i class="fa-solid fa-receipt"></i></div>
+          <span class="project-category">Billing System</span>
+          <h3>ClickToBill Billing System</h3>
+          <p>A billing and invoicing system built to streamline transactions with a clean, responsive interface.</p>
+          <div class="chip-group small"><span class="chip">PHP</span><span class="chip">MySQL</span><span class="chip">JavaScript</span></div>
+          <div class="project-links"><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div>
+        </div>
+        <div class="glass-card project-card reveal">
+          <div class="project-thumb"><i class="fa-solid fa-user"></i></div>
+          <span class="project-category">Personal</span>
+          <h3>Portfolio Website</h3>
+          <p>A modern, animated personal portfolio showcasing skills, projects and experience.</p>
+          <div class="chip-group small"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+          <div class="project-links"><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div>
+        </div>
+        <div class="glass-card project-card reveal">
+          <div class="project-thumb"><i class="fa-solid fa-brain"></i></div>
+          <span class="project-category">AI</span>
+          <h3>AI Powered Web Applications</h3>
+          <p>Web applications integrating AI tools to automate workflows and enhance the user experience.</p>
+          <div class="chip-group small"><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">AI APIs</span></div>
+          <div class="project-links"><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div>
+        </div>
+        <div class="glass-card project-card reveal">
+          <div class="project-thumb"><i class="fa-solid fa-store"></i></div>
+          <span class="project-category">Business</span>
+          <h3>Responsive Business Websites</h3>
+          <p>Fully responsive business websites built during internships, focused on performance and UX.</p>
+          <div class="chip-group small"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">PHP</span></div>
+          <div class="project-links"><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a><a href="#"><i class="fa-brands fa-github"></i> GitHub</a></div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+  <!-- CERTIFICATIONS -->
+  <section id="certificates" class="section alt-bg">
+    <div class="container">
+      <p class="section-eyebrow reveal">Certifications</p>
+      <h2 class="section-title reveal">Credentials &amp; Courses</h2>
+
+      <div class="cert-grid">
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Python for Data Science</h4><span>IBM</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>HTML &amp; CSS in Depth</h4><span>Meta</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Machine Learning Using Python</h4><span>Meta</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Data Science &amp; Analytics</h4><span>HP LIFE</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Cybersecurity Awareness</h4><span>HP LIFE</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Prompt Engineering</h4><span>Infosys</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>AI For All</h4><span>Infosys</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>AI for Business Professionals</h4><span>HP</span></div>
+        <div class="glass-card cert-card reveal"><i class="fa-solid fa-award"></i><h4>Generative AI Studio</h4><span>Course</span></div>
+      </div>
+
+      <h3 class="sub-heading reveal">Job Simulations</h3>
+      <div class="chip-group center reveal">
+        <span class="chip large">Deloitte Technology</span>
+        <span class="chip large">TATA Data Visualization</span>
+        <span class="chip large">EY Technology Risk</span>
+        <span class="chip large">JPMorgan Software Engineering</span>
+        <span class="chip large">Walmart Global Tech</span>
+        <span class="chip large">Skyscanner Front-End Software Engineering </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section class="section">
+    <div class="container">
+      <div class="glass-card leadership-card reveal">
+        <div class="leadership-icon"><i class="fa-solid fa-star"></i></div>
+        <div>
+          <h3>Student Leader</h3>
+          <div class="chip-group">
+            <span class="chip">Leadership</span><span class="chip">Teamwork</span><span class="chip">Communication</span>
+            <span class="chip">Decision Making</span><span class="chip">Coordination</span><span class="chip">Responsibility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section alt-bg">
+    <div class="container">
+      <p class="section-eyebrow reveal">Achievements</p>
+      <h2 class="section-title reveal">By the numbers</h2>
+
+      <div class="stats-grid">
+        <div class="stat reveal"><span class="stat-num" data-target="10" data-suffix="+">0</span><p>Professional Certifications</p></div>
+        <div class="stat reveal"><span class="stat-num" data-target="2" data-suffix="+">0</span><p>Internships</p></div>
+        <div class="stat reveal"><span class="stat-num" data-target="20" data-suffix="+">0</span><p>Technical Skills</p></div>
+        <div class="stat reveal"><span class="stat-num" data-target="5" data-suffix="+">0</span><p>Job Simulations</p></div>
+        <div class="stat reveal"><span class="stat-num" data-target="100" data-suffix="%">0</span><p>Passion</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-eyebrow reveal">Contact</p>
+      <h2 class="section-title reveal">Let's build something together</h2>
+
+      <div class="contact-grid">
+        <div class="glass-card contact-info reveal">
+          <div class="contact-row"><i class="fa-solid fa-envelope"></i><a href="mailto:hichandhya@gmail.com">hichandhya@gmail.com</a></div>
+          <div class="contact-row"><i class="fa-solid fa-phone"></i><a href="tel:+919025934085">+91 9025934085</a></div>
+          <div class="contact-row"><i class="fa-solid fa-location-dot"></i><span>Tamil Nadu, India</span></div>
+          <div class="contact-socials">
+            <a href="https://github.com/chandhya-8" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chandhya-s-9a9635386" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            
+          </div>
+        </div>
+
+        <form class="glass-card contact-form reveal" id="contactForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <input type="text" placeholder="Subject" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary full-width">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>Designed &amp; Developed by <strong>CHANDHYA S</strong></p>
+    <div class="footer-socials">
+      <a href="https://github.com/chandhya-8" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/chandhya-s-9a9635386" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:hichandhya@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>
